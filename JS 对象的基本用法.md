@@ -29,19 +29,19 @@ let obj = {
 obj.gender = '女';
 ```
 ![image](https://user-images.githubusercontent.com/81228918/118638735-ba046a00-b809-11eb-90ee-638726714d5f.png)
-### 怎么增加删除的属性
+### 怎么删除对象的属性
 ```
 delete obj.name || delete obj['name']
 ```
 ![image](https://user-images.githubusercontent.com/81228918/118638827-d0aac100-b809-11eb-8033-886b7d492839.png)
-### 怎么增加修改的属性
+### 怎么修改对象的属性
 ```
 obj.name = "xiao";
 obj.age = "20";
 ```
 ![image](https://user-images.githubusercontent.com/81228918/118639246-444cce00-b80a-11eb-9f3b-144ee75de1a6.png)
 
-### 怎么增加查看的属性
+### 怎么查看对象的属性
 ```
 //查看自身属性
 Object.keys(obj);
